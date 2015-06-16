@@ -1,0 +1,87 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+#login-dutaguru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#login-dutaguru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/registrasi-header-img2.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+
+/***** REGISTRASI DUTA GURU *****/
+#registrasi-dutaguru{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+#registrasi-dutaguru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#registrasi-dutaguru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/duta-icon.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#registrasi-dutaguru-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+.guru-form select{
+    padding: 5px;
+}
+
+/***** PROFILE *****/
+#profile-dutaguru-header{
+    background:url(../images/dutaguru-header-bg.png) repeat;
+    width: 690px;
+}
+
+#profile-menu-dutaguru{}
+#profile-menu-dutaguru .active{
+    background: url('../images/profile-menu-cursor-dutaguru.png') no-repeat right;
+}
+#profile-menu-dutaguru .active .item-wrap{
+    background-color: #f3940c !important;
+}
+#profile-menu-dutaguru .item-wrap{
+    height: 50px;
+    width: 260px;
+    text-align: left;
+    background:  #ffb839 no-repeat 20px;
+}
+#profile-menu-dutaguru .odd{
+    background-color: #ffae2d;
+}
+#profile-menu-dutaguru .item-wrap:hover{
+    background-color: #ffc62e;
+}
+#profile-menu-dutaguru #profile{background-image: url('../images/profile-menu-icon-profile.png')}
+#profile-menu-dutaguru #edit{background-image: url('../images/profile-menu-icon-edit.png')}
+#profile-menu-dutaguru #bank{background-image: url('../images/profile-menu-icon-bank.png')}
+#profile-menu-dutaguru #list_guru{background-image: url('../images/profile-menu-icon-listguru.png')}
+#profile-menu-dutaguru #list_murid{background-image: url('../images/profile-menu-icon-listmurid.png')}
+#profile-menu-dutaguru #pembayaran{background-image: url('../images/profile-menu-icon-pembayaran.png')}

@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    margin:0;
+    padding:0;
+    background: url('../images/comingsoon-bg.jpg') repeat;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+a,p{
+    margin: 0;
+    padding: 0;
+}
+
+.blank{
+    float: none;
+}
+
+.left{
+    float:left;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+.center{
+    text-align: center;
+}
+
+#main-con{
+    width: 1024px;
+    margin:0 auto;
+}
+#logo-wrapper{
+    height: 450px;
+}
+#logo{
+    width: 718px;
+    float:left;
+    text-align: right;
+}
+#social{
+    float:right;
+    width: 306px;
+    text-align: left;
+    padding-top: 150px;
+}
+#social p.title{
+    font-size: 0.8em;
+    color:#FFFFFF;
+    margin-bottom: 10px;
+}
+.twitter,
+.facebook{
+    height:38px;
+}
+
+#comingsoon-title{
+    color:#d0f2ff;
+    font-size: 1.7em;
+    width: 800px;
+    margin:0 auto;
+}
+#daftar-title{
+    margin-top: 10px;
+    color:#FFFFFF;
+    font-size: 0.8em;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+}
+
+#daftar-wrapper{
+    width: 733px;
+    margin:0 auto;
+}
+
+#daftar-box{
+    width: 733px;
+    height:58px;
+    background: url('../images/daftar-comingsoon-box.png') no-repeat;
+}
+
+#daftar-box-input{
+    padding-top: 10px;
+    float:left;
+    margin-left: 11px;
+    width: 600px;
+}
+#daftar-box-input input{
+    height: 33px;
+    width: 588px;
+    border: 1px solid #7cd7f3;
+    color: #9e9e9e;
+    padding-left: 5px;
+    font-family: "arial";
+    font-style: italic;
+    line-height: 33px;
+    font-size: 1.1em;
+}
+#daftar-box-submit{
+    padding-top: 10px;
+    margin-right:12px;
+    float: right;
+    width: 107px;
+}
+#daftar-comment{
+    text-align: left;
+    color:#FFFFFF;
+    font-size: 0.7em;
+}

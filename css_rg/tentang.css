@@ -1,0 +1,78 @@
+#tentang-wrap {
+    width: 1080px;
+    margin: 0px auto;
+    min-height: 500px;
+    font-family: Ubuntu;
+    text-align: left;
+}
+
+.tentang-head {
+	margin: 10px 0px;
+	background: #FAFAFA;
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-shadow: -1px 0 2px #EAEAEA;
+}
+
+.tentang-head h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tentang-body {
+	background: #FFF;
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: -1px 0 2px #EAEAEA;
+	margin-top: -10px;
+	text-align: justify;
+}
+
+.collapsable {
+	cursor: pointer;
+}
+
+.head-green {
+	background: #97A420;
+}
+.head-green:hover {
+	background: #979E58;
+}
+
+.head-blue {
+	background: #38C5E3;
+}
+.head-blue:hover {
+	background: #84B8C3;
+}
+
+.head-yellow {
+	background: #FFB838;
+}
+.head-yellow:hover {
+	background: #E2B86B;
+}
+
+.tentang-body .nav-pills a:hover {
+	border-radius: 0;
+	color: #34B9D8;
+	background-color: #FAFAFA;
+}
+
+.tentang-body .nav-pills .active a{
+	color: #34B9D8;
+	background-color: #FAFAFA;
+	border-left: 2px solid #34B9D8;
+	border-radius: 0;
+}
+
+.tentang-body .nav-pills .active a:hover{
+	color: #34B9D8;
+	background-color: #FAFAFA;
+	border-left: 2px solid #02BFEC;
+	border-radius: 0;
+};

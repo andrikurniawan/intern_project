@@ -1,0 +1,21 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+body {
+	font-family: Ubuntu;
+	width: 800px;
+	padding: 40px;
+	background: #FAFAFA;
+}
+
+#logo {
+	margin: 20px 10px;
+	width: 100px;
+	position: absolute;
+	float: left;
+}
+
+table {
+	width: 600px;
+	position: relative;
+	left: 200px;
+}

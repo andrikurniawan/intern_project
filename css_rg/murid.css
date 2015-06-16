@@ -1,0 +1,344 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+.murid-maincontent{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+.murid-maincontent-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.murid-maincontent-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#237f94;
+}
+.murid-maincontent-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#login-murid-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#login-murid-header-wrap{
+    background:url(../images/murid-icon.png) no-repeat right;
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#000;
+}
+
+/***** REGISTRASI MURID *****/
+#registrasi-murid{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+#registrasi-murid-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#registrasi-murid-header-wrap{
+    background:url(../images/murid-icon.png) no-repeat right;
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#000;
+}
+#registrasi-murid-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+.guru-form select{
+    padding: 5px;
+}
+
+/***** PROFILE *****/
+#profile-murid-header{
+    width: 100%;
+}
+
+#profile-menu-murid{}
+#profile-menu-murid .active{
+
+}
+#profile-menu-murid .active .item-wrap{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+}
+
+#profile-menu-murid .active .item-wrap:after {
+
+}
+
+
+#profile-menu-murid .item-wrap{
+  height: 50px;
+width: 220px;
+text-align: left;
+background: none no-repeat scroll 20px center #ffffff;
+border-bottom: 1px solid #eeeeee;
+border-left: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+	color: #78787A;
+}
+#profile-menu-murid .odd{
+    background-color: #ffffff;
+}
+
+#profile-menu-murid .last{
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.murid-nama
+{
+padding-top: 10px;
+}
+
+.murid-text {
+    margin-top: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: #47C2DF;
+    height: 35px;
+}
+
+.kelengkapan-text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    color:#626262;
+    height: 5px;
+    margin-left: -40px;
+    
+}
+
+
+	#pb {width: 180px;
+height: 20px;
+position: absolute;
+left: 50%;
+border-radius: 8px;
+padding: 3px;
+overflow: hidden;
+text-align: center;
+font-weight: bold;
+color: #666;
+margin-top: 20px;
+line-height: 18px;
+margin-left: -90px;
+		background: #b8b8b9;
+		background: -moz-linear-gradient(top, #b8b8b9 0%,  #dfdfde 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8b8b9), color-stop(100%, #dfdfde)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #b8b8b9 0%, #dfdfde 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #b8b8b9 0%, #dfdfde 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #b8b8b9 0%, #dfdfde 100%); /* IE10+ */
+		background: linear-gradient(to bottom,#b8b8b9 0%, #dfdfde 100%); /* W3C */
+		line-height: 18px;
+font-size: 12px;
+	}
+	#progress {
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+        
+height: 15px;
+		width:48px;
+		background-color: #0080FF;
+		border-radius:6px;
+		background: #6db3f2;
+		background: -moz-linear-gradient(top,  #3bbfdd 0%, #39bad7 50%, #39b5d1 51%, #36aac3 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3bbfdd), color-stop(50%,#39bad7), color-stop(51%,#39b5d1), color-stop(100%, #36aac3)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #3bbfdd 0%,#39bad7 50%,#39b5d1 51%, #36aac3 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #3bbfdd 0%,#39bad7 50%,#39b5d1 51%, #36aac3 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #3bbfdd 0%,#39bad7 50%,#39b5d1 51%, #36aac3 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #3bbfdd 0%,#39bad7 50%,#39b5d1 51%, #36aac3  100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-8 */
+		-webkit-box-shadow: inset 0px 0px 5px  rgba(0, 0, 0, 0.2), 2px 2px 5px  rgba(0, 0, 0, 0.2);        
+        box-shadow: inset 0px 0px 5px  rgba(0, 0, 0, 0.2), 2px 2px 5px  rgba(0, 0, 0, 0.2);
+        position:absolute;
+        overflow:hidden;      
+
+	}
+	#done:active {
+		-webkit-box-shadow: inset 0px 0px 18px  rgba(0, 0, 0, 0.4);        
+        box-shadow: inset 0px 0px 18px  rgba(0, 0, 0, 0.4);
+        border-radius:6px;
+	}
+	#done {
+		text-align:center;
+        line-height:38px;
+        font-size:12px;
+        font-weight:bold;
+        color:#EEE;
+        height:38px;
+		width:250px;
+		text-shadow: 0px -1px 0px rgba(0,0,0,0.2);		
+        cursor:pointer;  
+	}
+#pb:hover {
+    cursor: pointer;
+}
+#profile-menu-murid .item-wrap:hover{
+    background-color: #c2e7ef;
+    text-decoration: none;
+}
+#profile-menu-murid a:hover{
+
+    text-decoration: none;
+}
+
+
+
+
+a:focus, a:hover {
+    color: #23527C;
+    text-decoration: none;
+}
+
+.table > tbody > tr > .desc
+{
+padding: 8px;
+line-height: 1.42857;
+vertical-align: top;
+border-top: 1px solid #DDD;
+padding-left: 30px;
+}
+
+#profile-menu-murid .active #dashboard{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/dashboard-icon-active.png');
+}
+
+#profile-menu-murid .active #profile{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/profile-icon-active.png');
+}
+
+#profile-menu-murid .active #kelas{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/kelas-icon-active.png');
+}
+
+#profile-menu-murid .active #pembayaran{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/pembayaran-icon-active.png');
+}
+#profile-menu-murid .active #points{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/poin-icon-active.png');
+}
+
+#profile-menu-murid .active #wish{
+    background-color: #39b9d7 !important;
+    color: white;
+    font-weight: bold;
+background-image: url('../images/wishlist-icon-active.png');
+}
+
+#profile-menu-murid #dashboard{background-image: url('../images/dashboard-icon.png');
+padding-left: 70px;
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+	}
+#profile-menu-murid #profile{background-image: url('../images/profile-icon.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+	}
+#profile-menu-murid #edit{background-image: url('../images/profile-menu-icon-edit.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+	}
+#profile-menu-murid #request{background-image: url('../images/profile-menu-icon-request.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+	}
+#profile-menu-murid #points{background-image: url('../images/poin-icon.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+	}
+#profile-menu-murid #kelas{background-image: url('../images/kelas-icon.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+}
+
+#profile-menu-murid #wish{background-image: url('../images/wishlist-icon.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;	
+}
+#profile-menu-murid #pembayaran{background-image: url('../images/pembayaran-icon.png');
+font-size: 14px;
+font-family: Ubuntu;
+text-decoration: none;
+line-height: 50px;
+padding-left: 70px;
+	}

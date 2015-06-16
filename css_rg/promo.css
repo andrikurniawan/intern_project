@@ -1,0 +1,124 @@
+
+/*==== CSS FOR PROMO ======*/
+
+.banner-promo {
+	position: relative;
+	height:600px;
+	background: #000;
+	overflow: hidden;
+	margin-top: -5px;
+}
+
+.banner-promo:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.7;
+	background: url('../images/promo/promo2.jpg') no-repeat 50% 50%;
+/*
+	opacity: 0.6;
+	background: url('../images/promo/promo-lowres.jpg') no-repeat 50% 50%;
+>>>>>>> 288a1d8c564cb5be438b8a5014df99a0e030f9a2
+/*
+	background-image: url('../images/komunitas_banner.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+/* */
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.banner-promo.hires:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.7;
+	background: url('../images/promo/promo2.jpg') no-repeat 50% 50%;
+/*
+	background-image: url('../images/komunitas_banner.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+/* */
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.banner-promo .content{
+	width:950px;
+	height:300px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+	z-index: 2;
+}
+
+.banner-promo .content h1 {
+	padding: 100px 50px 20px;
+	text-align: left;
+	z-index: 2;
+	position: relative;
+	color: #EEE;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 61px;
+	line-height: 70px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.banner-promo .content h2 {
+	padding: 10px 10px 20px;
+	text-align: left;
+	z-index: 2;
+	position: relative;
+	color: #EEE;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.banner-promo .content .buttonpro{
+	font-family: inherit;
+	background: none repeat scroll 0 0 #FFB838;
+	cursor: pointer;
+	padding: 6px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	outline: medium none;
+	position: relative;
+	transition: all 0.3s ease 0s;
+	border: medium none;
+	font-size: 12px;
+	z-index: 2;
+	color:#000;
+}
+
+.banner-promo .content .buttonpro .newbutton {
+	background: none repeat scroll 0 0 #FFB838;
+	color: #FFF;
+	padding: 6px 20px;
+	box-shadow: 0 3px #F4A922;
+	border-radius: 2px;
+	position: relative;
+	z-index: 2;
+}

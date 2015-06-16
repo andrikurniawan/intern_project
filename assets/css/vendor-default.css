@@ -1,0 +1,1198 @@
+/*
+	Created by: Arieditya Pr.dH
+	Date: Oct 07, 2014
+	Project: private-development
+*/
+
+/* NAVBAR /
+.navbar-inverse {
+	background-color: #222;
+	border-color: #080808;
+}
+.navbar-fixed-top {
+	top: 0;
+	z-index: 1000000;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	border-width: 0 0 1px;
+}
+
+.navbar {
+	border-radius: 4px;
+	position: relative;
+	z-index: 900000;
+	min-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+/* ADDED FONT FORM RELIC CSS */
+@font-face { 
+	font-family: Ubuntu; 
+	src: url('../fonts/Ubuntu-R.ttf'); 
+}
+/* HEADER */
+body {
+	font-family: Ubuntu !important;
+	padding-top: 95px;
+	position: relative;
+	overflow-x: hidden;
+}
+.text-10{
+	font-family: Ubuntu;
+	font-size: 10px;
+	color: #000;
+}
+.text-11{
+	font-family : Ubuntu;
+	font-size: 11px;
+	color: #000;
+}
+.text-12{
+	font-family : Ubuntu;
+	font-size: 12px;
+	color: #000;
+}
+.text-13{
+	font-family : Ubuntu;
+	font-size: 13px;
+	color: #000;
+}
+.text-14{
+	font-family : Ubuntu;
+	font-size: 14px;
+	color: #000;
+}
+.text-16{
+	font-family : Ubuntu;
+	font-size: 16px;
+	color: #000;
+}
+.text-18{
+	font-family : Ubuntu;
+	font-size: 18px;
+	color: #000;
+}
+.text-20{
+	font-family : Ubuntu;
+	font-size: 20px;
+	color: #000;
+}
+.text-21{
+	font-family : Ubuntu;
+	font-size: 21px;
+	color: #000;
+}
+.text-24{
+	font-family : Ubuntu;
+	font-size: 24px;
+	color: #000;
+}
+
+.underline{
+	text-decoration: underline !important;
+}
+
+.bs-header {
+	font-size: 21px;
+	text-align: left;
+	padding: 30px 15px 40px;
+	color: #cdbfe3;
+	background-color: #FFB838;
+	position: static;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.bs-header h1 {
+	margin-right: 380px;
+	font-size: 60px;
+	line-height: 1;
+	color: #fff;
+}
+
+.bs-header p {
+	margin-right: 380px;
+	line-height: 1.5;
+}
+.sm-header {
+	font-size: 21px;
+	text-align: left;
+	padding: 15px 15px 15px;
+	color: #cdbfe3;
+	background-color: #FFB838;
+	position: static;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.sm-header h1 {
+	margin-right: 380px;
+	font-size: 36px;
+	line-height: 1;
+	color: #fff;
+}
+
+.txt-blue1 {
+	color: #38C5E3;
+}
+.bck-blue1 {
+	background-color: #38C5E3;
+}
+.brd-blue1 {
+	border-color: #38C5E3;
+}
+.txt-blue2 {
+	color: #62CDDC;
+}
+.bck-blue2 {
+	background-color: #62CDDC;
+}
+.brd-blue2 {
+	border-color: #62CDDC;
+}
+/******* WARNA NYA RG *******/
+	/* BLUISH */
+	/* #38C5E3 */
+	/* #62CDDC */
+	/* #93D2DA */
+
+	/* GREENISH */
+	/* #97A420 */
+	/* #658339 */
+	/* #0AE1A7 */
+	/* #09C750 */
+
+	/* YELLOWISH */
+	/* #FFB838 */
+	/* #FFE08C */
+	/* #E4FB0B */
+
+	/* PINKISH */
+	/* #E10A65 */
+	/* #E4367F */
+	/* #EA5F9A */
+
+	/* GREYISH */
+	/* #7B7B7B */
+	/* #B7B7B7 */
+	/* #9E9D9D */
+	/* #DEDBDB */
+
+.navbar-blue {
+	/*background-image: -webkit-linear-gradient(top, #62cddd 0%, #38c5e3 100%);
+	background-image: linear-gradient(to bottom, #62cddd 0%, #38c5e3 100%);*/
+	background-repeat: repeat-x;
+	background-color: #3BC4E6;
+}
+
+.navbar-white {
+	background-repeat: repeat-x;
+	background-color: #FFFFFF !important;
+	
+}
+
+.navbar-white .container .white-navbar,
+.navbar-white .container .white-navbar ul
+{
+	margin-top: 7px;
+	margin-left: 50px;
+	width:910px;
+	height:70px;
+}
+.navbar-blue a, .navbar-blue button {
+		color: #000;
+}
+
+.navbar-blue li a{
+	color: #222;
+}
+
+.navbar-blue li a:hover {
+	background-color: #93D2DB !important;
+	color: #eee;
+	background-image: none;
+}
+
+.navbar-nav li a {
+	color: #000;
+}
+.navbar-blue .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #38c5e3 0%, #93D2DB 100%);
+  background-image:         linear-gradient(to bottom, #38c5e3 0%, #93D2DB 100%);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0, .25);
+          box-shadow: inset 0 3px 9px rgba(0,0,0, .25);
+}
+.navbar-blue .navbar-brand,
+.navbar-blue .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0,0,0, .25);
+}
+
+.navbar-nav > li > a {
+	padding-top: 35px;
+}
+.navbar-nav > li > p ,
+.navbar-nav > li > h2 ,
+.navbar-nav > li > a {
+	margin-top: 15px;
+	margin-left: 45px;
+}
+ul.menubar li {
+	padding: 20px 40px;
+	list-style: none;
+}
+
+ul.menubar li:nth-child(odd) {
+	background-color: #c3ce1e;
+}
+
+ul.menubar li:nth-child(even) {
+	background-color: #cfdb20;
+}
+ul.menubar li:hover {
+	background-color: #e0eb40;
+}
+
+body > .container {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* Added from relic CSS */
+
+#footer, #footer * {
+	font-family: Ubuntu !important;
+}
+
+.orange{
+	color: #FCA60A !important;
+}
+
+.white{
+	color: #FFFFFF !important;
+}
+
+.blue{
+	color: #2DB2D1 !important;
+}
+
+.pink{
+	color: #e10065 !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#footer{
+    background: #3bc4e6;
+    width: 100%;
+}
+
+#footer-wrap{
+    width: 1100px;
+    margin:0 auto;
+}
+
+#footer-content-wrap{
+    min-height:90px;
+}
+.footer-content:first-child{
+    margin-left:0;
+}
+.footer-content{
+    text-align: left;
+    float: left;
+    width: 350px;
+    margin-left:20px;
+}
+.footer-content-right{
+    text-align: justify;
+    float: left;
+    width: 445px;
+    margin-left:15px;
+	padding-left:50px;
+}
+.footer-content-bottom{
+    text-align: center;
+    padding-top: 4px;
+    width: 230px;
+    float: right;
+}
+.footer-contact-header{
+    line-height: 30px;
+    vertical-align: middle;
+    font-family: Ubuntu;
+    font-size: 1em;
+    width:260px;
+    color:#fff;
+    margin-bottom: 3px;
+}
+
+.footer-contact-detail{
+    font-family: Ubuntu;
+    color:#000;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.footer-contact-detail p{
+    margin:0;
+    color:#000;
+}
+
+.footer-contact-social{
+    margin-top: 10px;
+}
+
+.footer-about-header{
+    line-height: 30px;
+    vertical-align: middle;
+    font-family: Ubuntu;
+    font-size: 1em;
+    width:460px;
+    color:#000;
+    margin-bottom: 8px;
+}
+
+.footer-about-detail{
+    margin-top:20px;
+    font-family: Ubuntu;
+    color:#000;
+    font-size: 0.75em;
+    line-height: 1.5em;
+	margin-left: 37px;
+    margin-bottom: 5px;
+}
+
+.footer-about-detail p{
+    margin:0 0 3px 0;
+    width: 560px;
+}
+
+.footer-link a:link,
+.footer-link a:visited{
+    font-family: Ubuntu;
+    color:#000;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-copyright{
+    font-family: Ubuntu;
+    color:#fff;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-left: -15px;
+}
+
+.blue-bar {
+	background-color:#38C5E3;
+	padding: 5px;
+	text-align: left;
+	color: #000;
+}
+
+a.normal-link:link,
+a.normal-link:visited
+{
+    color: #2DB2D1;
+    text-decoration: none;
+}
+
+#form-tabs .tab-content form.form-horizontal div.form-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#form-tabs .tab-content form.form-horizontal div.form-group textarea {
+	height: 7.7em;
+}
+
+.italic{
+	font-style:italic;
+}
+
+#socmed-icon a{
+	margin-right: 10px;
+}
+
+.tooltip{
+	display: inline;
+	position: relative;
+	color:#FCA60A;
+	padding: 2px;
+	font-weight: bold;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 310px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 21px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+.discount-tag{
+	position: absolute;
+	top:4px;
+	right:-13px;
+}
+
+.price-tag{
+	position: absolute;
+	z-index: 10;
+	top: 1px;
+	left: 12px;
+	font-size: 18px;
+}
+
+.price-class{
+	background-color: #000;
+	position: relative;
+	top: -35px;
+	padding: 8px;
+	opacity: 0.8;
+	height: 35px;
+}
+
+.class-title-container{
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    margin-right:13px;
+    width:300px;
+    margin-top:-25px;
+}
+
+.class-info{
+	margin-top: -61px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 5px;
+	padding-right: 2px;
+	height: 110px;
+	background-color:#fff;
+	box-shadow: 0px 2px 5px #999;
+}
+
+.class-info2{
+	border: 1px solid #969696;
+	margin-top: 0px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 5px;
+	padding-right: 2px;
+	height: 100px;
+}
+
+.pos-btn{
+	position: absolute;
+	left: 230px;
+}
+
+.line-title{
+	border-bottom: 1px solid #e9e9e9;
+	width: auto;
+	margin-top:-4px;
+}
+
+.link-vendor{
+	text-decoration:underline;
+	font-size: 13px;
+}
+
+#main-photo{
+}
+
+.btn-reg-class{
+	background-color: #fbb33c;
+	padding: 10px 30px 12px 30px;
+	border-radius: 18px;
+	position: relative;
+	left: 190px;
+	font-weight:bold;
+}
+
+.bottom-5{
+   margin-top:5px;
+}
+
+.bottom-10{
+   margin-top:10px;
+}
+
+.bottom-20{
+   margin-top:20px;
+}
+
+.bottom-30{
+   margin-top:30px;
+}
+
+.bottom-40{
+   margin-top:40px;
+}
+
+.bottom-50{
+   margin-top:50px;
+}
+
+.top-10{
+   margin-bottom:10px;
+}
+
+.top-20{
+   margin-bottom:20px;
+}
+
+.top-30{
+   margin-bottom:30px;
+}
+
+.top-40{
+   margin-bottom:40px;
+}
+
+.top-50{
+   margin-bottom:50px;
+}
+
+.padtop-10{
+   padding-bottom:10px;
+}
+
+.padtop-20{
+   padding-bottom:20px;
+}
+
+.padtop-30{
+   padding-bottom:30px;
+}
+
+.padtop-40{
+   padding-bottom:40px;
+}
+
+.padtop-50{
+   padding-bottom:50px;
+}
+
+.padbottom-10{
+   padding-top:10px;
+}
+
+.padbottom-20{
+   padding-top:20px;
+}
+
+.padbottom-30{
+   padding-top:30px;
+}
+
+.padbottom-40{
+   padding-top:40px;
+}
+
+.padbottom-50{
+   padding-top:50px;
+}
+
+.rating{
+   margin-bottom: 10px;
+}
+
+.shadow{
+	box-shadow: 0px 1px 4px #999;
+}
+
+#review-wrapper{
+	margin: 10px 0 0 0;
+	padding:0;
+}
+
+#review-wrapper li{
+	list-style-type:none;
+	padding-bottom:10px;
+	height:120px;
+}
+
+.frame-murid{
+	border: 2px solid #D9D9D9
+}
+
+.left-review{
+	width: 115px;
+	float: left;
+}
+
+.right-review{
+	width: 620px;
+}
+
+.tab-content{
+	height:auto;
+}
+
+.list-orange{
+	background-color: #fcb33b;
+	box-shadow: 0px 2px 5px #999;
+	height:40px;
+	position: fixed;
+	width: 102%;
+	margin-top: -10px;
+	z-index:1000;
+}
+
+.bg-filter{
+	background-color: #f5f5f5;
+	border-radius: 8px;
+	margin: 7px;
+	box-shadow: 0px 2px 3px #999;
+}
+
+.class-title{
+	position: relative;
+	left: 8px;
+	color: #fff;
+	font-weight: bold;
+	font-size:18px;
+	overflow: hidden;
+	height: 26px;
+    padding: 5px;
+}
+
+.class-name{
+	margin-top:6px;
+}
+
+.class-rating{
+	float: right;
+	position: relative;
+	right: 2px;
+}
+
+.class-session{
+	margin-top:5px;
+}
+
+.ico-session{
+	float: left;
+	width: 10%;
+}
+
+.class-price{
+	background-color: #000;
+	margin-left: -5px;
+	margin-right: -3px;
+	padding-top: 5px;
+	padding-left: 10px;
+	height: 30px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	width:70%;
+	float:left;
+}
+
+.class-register{
+	background-color:#fcb33b;
+	font-size:14px;
+	box-shadow:0px 5px 10px -6px rgba(0,0,0,0.75);
+	height:30px;
+	margin-right:-2px;
+	padding-top:5px;
+	width:33%;
+	float:right;
+	text-align: center;
+	font-weight:bold;
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+
+#footer-addr{
+	font-size: 12px;
+	line-height: 6px;
+	text-align: center;
+}
+
+.select-style{
+	padding: 0;
+	margin: 7px 0 0 0;
+	border: 1px solid #f5f5f5;
+	width: 100%;
+	height:25px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	box-shadow: 0px 2px 5px #999;
+}
+
+.level{
+	width:80px;
+}
+
+.propinsi{
+	width:120px;
+}
+
+.kategori{
+	width:100px;
+}
+
+.btn-blue{
+	background-color: #3bc4e6;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.btn-orange{
+	background-color: #fcb33b;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.pos-logreg{
+	margin-left: -18px;
+	margin-top: -5px;
+}
+
+.sub-menu-btn{
+	background-color: #fff;
+	padding: 2px 6px;
+	border-radius: 4px;
+	margin-top: 5px;
+	box-shadow: 0px 2px 5px #999;
+	font-weight:bold;
+}
+
+.sub-menu-btn-active{
+	background-color: #e10065;
+	padding: 2px 6px;
+	border-radius: 4px;
+	margin-top: 5px;
+	box-shadow: 0px 2px 5px #999;
+	font-weight:bold;
+}
+
+.sub-menu-btn a:hover,.sub-menu-btn-active a:hover{
+	opacity:0.5;
+}
+
+.btn-grey{
+	background-color: #f5f5f5;
+	padding: 2px 5px;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+/*--- DROPDOWN ---*/
+
+#nav{
+    list-style:none;
+    /* Clear floats */
+   /* Bring the nav above everything else--uncomment if needed.
+    position:relative;
+    z-index:5;
+    */
+    position: relative;
+	top:12px;
+	left: -8px;
+	font-family: Ubuntu;
+	width:100px;
+}
+#nav li{
+    margin-top: 3px;
+    position:relative;
+    width: 100px;
+}
+
+#nav a{
+    color:#fff;
+    background: #3bc4e6;
+	border-radius:5px;
+    text-decoration:none;
+    height: auto;
+    padding: 7px 15px;
+	font-size:19px;
+}
+
+
+#nav ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    	float: none;
+}
+#nav ul li{
+	padding: 9px 0 0 0;
+	text-align: left;
+	position: relative;
+	left: -90px;
+	top:-18px;
+	z-index: 100;
+}
+#nav ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+    left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    background:#3bc4e6;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:#999;
+}
+
+
+#nav-reg{
+    list-style:none;
+    /* Clear floats */
+   /* Bring the nav above everything else--uncomment if needed.
+    position:relative;
+    z-index:5;
+    */
+    position: relative;
+	top: 12px;
+	left: -50px;
+	font-family: Ubuntu;
+	width:100px;
+}
+#nav-reg li{
+    margin-top: 3px;
+    position:relative;
+    width: 100px;
+}
+
+#nav-reg a{
+    color:#fff;
+    background: #fcb33b;
+    text-decoration:none;
+    height: auto;
+    padding: 7px 15px;
+	font-size:19px;
+	border-radius:5px;
+}
+
+
+#nav-reg ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    	float: none;
+}
+#nav-reg ul li{
+	padding: 9px 0 0 0;
+	text-align: left;
+	position: relative;
+	left: -90px;
+	top:-18px;
+	z-index: 100;
+}
+#nav-reg ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav-reg li:hover ul{ /* Display the dropdown on hover */
+    left:0; /* Bring back on-screen when needed */
+}
+#nav-reg li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    background:#fcb33b;
+}
+#nav-reg li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+#nav-reg li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:#999;
+}
+/* END OF DROPDOWN */
+
+.padding-content{
+	padding:25px 20px;
+}
+
+.table-class{
+	margin-left:-12px;
+}
+
+.table-class, th, td{
+	border:1px solid #c9c9c9;
+	padding:10px;
+}
+
+.table-class th{
+	background-color: #e20065;
+	color: #fff;
+}
+
+.manage-icon{
+	background-color:#fcb33b;
+	border-radius:4px;
+	padding:6px 8px;
+}
+
+#class-notes{
+	margin-top: 30px;
+	margin-left:-12px;
+	line-height:23px;
+}
+
+#class-notes ol{
+	margin:0 0 0 18px;
+	padding:0;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+.btn-reg-pink{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position: relative;
+	top: -100px;
+	left: 465px;
+}
+
+.btn-reg-pink li{
+	float:left;
+	margin-left:20px;
+}
+
+.btn-pink{
+	background-color: #e10065;
+	border-radius:5px;
+	border:1px solid #e10065 !important;
+	color: #fff;
+	padding:5px 22px;
+	font-weight:bold;
+}
+
+.btn-pinky a{
+	background-color: #fff;
+	border-radius:5px;
+	border:1px solid #e10065 !important;
+	color: #e10065;
+	padding:5px 22px;
+	font-weight:bold;
+}
+
+.btn-pinky-active a{
+	background-color: #e10065;
+	border-radius:5px;
+	border:1px solid #e10065 !important;
+	color: #fff;
+	padding:5px 22px;
+	font-weight:bold;
+}
+
+.btn-pinky a:hover{
+	background-color: #e10065;
+	color:#fff;
+	font-weight:bold;
+}
+
+.cari-guru{
+	border:1px solid #e10065;
+	background-color:#e10065;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	padding:7px 10px;
+	color: #fff;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.select{
+    min-width: 234px;
+    margin-top: 5px;
+    border:1px solid #7fdefa;
+    padding:4px 6px;
+    font-size: 1.2em;
+    color:#000;
+    width: 50px;
+    font-family: Ubuntu;
+}
+
+.cg-field{
+}
+
+.btn-search{
+	background-color: #e10065;
+	border-radius:5px;
+	border:1px solid #e10065 !important;
+	color: #fff;
+	padding:5px 22px;
+	font-weight:bold;
+	margin-left:130px;
+}
+
+.btn-browse{
+    font-family: Ubuntu;
+    background-color: #fcb33b;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color:#fff;
+    text-decoration:none;
+    height: auto;
+    width: 282px;
+    padding: 7px 15px;
+    font-size:19px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-back{
+    font-family: Ubuntu;
+    background-color: #fcb33b;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color:#fff;
+    text-decoration:none;
+    height: auto;
+    width: 150px;
+    padding: 7px 15px;
+    font-size:19px;
+    text-align: center;
+    margin-right: auto;
+}
+
+.why-text{
+	margin-left:-35px;
+	font-weight:bold;
+	text-align:center;
+	width: 225px;
+}
+
+.bg-orange-all{
+	background-color: #fcb33b;
+	height: 55px;
+	padding-top:16px;
+}
+
+.search-class{
+	width: 265px;
+	text-align: center;
+}
+
+#manfaat-rg{
+	margin:0;
+	padding:0;
+}
+
+#manfaat-rg li{
+	list-style-type:none;
+	padding-bottom:30px;
+	line-height:18px;
+	min-height:120px;
+	font-size: 13px;
+}
+
+.ico-manfaat{
+	margin-right:15px;
+}
+
+#vendors-step{
+	margin:0;
+	padding:0;
+}
+
+#vendors-step li{
+	list-style-type:none;
+	float: left;
+	width: 210px;
+	margin-right: 25px;
+	font-size: 13px;
+}
+
+.btn-how-to{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position: relative;
+	left:145px;
+	top:180px;
+}
+
+.btn-how-to li{
+	float:left;
+	margin-left:20px;
+}
+
+#type-disc{
+	margin:0;
+	padding:0;
+}
+
+#type-disc li{
+	list-style-type: none;
+	float: left;
+	margin-right:25px;
+}
+
+.bg-vendor{
+	background: url('../../images/banner-vendor-1.jpg') no-repeat;
+	height:300px;
+}
+
+.title-class{
+	width: 150px;
+	padding: 5px 10px;
+	margin-left: -15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color:#3bc4e6;
+}
+
+.pos-icon{
+	position: relative;
+	top: -27px;
+	left: 142px;
+}
+
+.narrow{
+	margin-top: -10px;
+	margin-bottom: -10px;
+}

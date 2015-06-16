@@ -1,0 +1,736 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+/*** DEFAULT STYLE ***/
+.profile-guru-wrap{
+    width: 625px;
+    border:1px solid #dae3e6;
+}
+.profile-guru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profile-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/registrasi-header-img2.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+.profile-guru-content{
+    margin-left: 10px;
+    width: 605px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#profile-guru-wrap{
+    width: 1060px;
+    margin: 0 auto;
+}
+.profile-right-box{
+    float:right;
+}
+.profile-side-box{
+    width: 236px;
+    border:1px solid #dae3e6;
+}
+.profile-menu{
+    position: absolute;
+    z-index: 10;
+    margin-top:60px;
+}
+.profile-menu .active{
+    background: url('../images/profile-menu-cursor.png') no-repeat right;
+}
+.profile-menu .active .item-wrap{
+    background-color: #a0a617;
+}
+.profile-menu-item{
+    width: 272px;
+}
+.profile-menu-item .item-wrap{
+    height: 50px;
+    width: 260px;
+    text-align: left;
+    background: #cfdb20 no-repeat 20px;
+}
+.profile-menu-item .odd{
+    background-color: #c3ce1e;
+}
+.profile-menu-item .item-wrap:hover{
+    background-color: #e0eb40;
+}
+.profile-menu-item #profile{background-image: url('../images/profile-menu-icon-profile.png')}
+.profile-menu-item #edit{background-image: url('../images/profile-menu-icon-edit.png')}
+.profile-menu-item #bank{background-image: url('../images/profile-menu-icon-bank.png')}
+.profile-menu-item #rating{background-image: url('../images/profile-menu-icon-rating.png')}
+.profile-menu-item #request{background-image: url('../images/profile-menu-icon-request.png')}
+.profile-menu-item #kelas{background-image: url('../images/profile-menu-icon-kelas.png')}
+.profile-menu-item #pembayaran{background-image: url('../images/profile-menu-icon-pembayaran.png')}
+.profile-menu-item a:link,
+.profile-menu-item a:visited{
+    margin-left: 50px;
+    color:#FFF;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Ubuntu;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#profile-guru{
+    width: 810px;
+    border:1px solid #dae3e6;
+    float: right;
+}
+#profile-guru-header{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 790px;
+    background:url(../images/cariguru-header-bg.png) repeat;
+}
+#profile-guru-front-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#profile-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+    background: url(../images/guru-icon.png) no-repeat right;
+}
+#profile-murid-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+    background: url(../images/murid-icon.png) no-repeat right;
+}
+#profile-duta-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+    background: url(../images/duta-icon.png) no-repeat right;
+}
+#profile-guru-content{
+    margin-left: 10px;
+    width: 790px;
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    color:#000;
+}
+
+.profile-content-text{
+    text-align: left;
+    padding: 0 10px;
+    color:#000;
+    font-size: 13px;
+}
+
+#pgc-wrap{
+    /*float:left;*/
+    padding: 40px;
+    text-align: left;
+}
+.pgc-section{
+    margin-bottom: 30px;
+    color:#000;
+}
+.pgc-section #profile-picture{
+    float:left;
+    width: 150px;
+}
+.pgc-section #profile-bio{
+    float:left;
+    width: 350px;
+}
+#profile-bio #profile-bio-nama{
+    font-family: Ubuntu;
+    color: #2bbddf;
+    font-size: 18px;
+}
+#profile-bio #profile-bio-detail{
+    margin-top:10px;
+}
+#profile-bio #profile-bio-detail *{
+    font-family: Ubuntu;
+    font-size: 13px;
+    color:#000;
+}
+#profile-bio #profile-bio-detail td{
+    padding-right: 6px;
+}
+#profile-rating{
+    float:left;
+}
+#profile-rating-title{
+    text-align: center;
+    color:#2bbddf;
+    font-family: Ubuntu;
+    font-size: 17px;
+}
+#profile-rating-value{
+    width:102px;
+    height: 114px;
+    background-image: url(../images/rating-bg-blue-small.png);
+    text-align: center;
+    vertical-align: middle;
+}
+.profile-rating-value{
+    width:102px;
+    height: 114px;
+    background-image: url(../images/rating-bg-blue-small.png);
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+#profile-rating-value p{
+    vertical-align: middle;
+    line-height:114px;
+    color:#f8f8f8;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0;
+}
+.profile-rating-value p{
+    vertical-align: middle;
+    line-height:114px;
+    color:#f8f8f8;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: bold;
+    margin:0;
+}
+.pgc-section .header{
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #2bbddf;
+    padding-bottom: 3px;
+}
+.pgc-section .content{
+    margin-top: 6px;
+    font-family: Ubuntu;
+    font-size:13px;
+    color:#000;
+}
+table.availability{
+    width: 350px;
+}
+table.availability td{
+    border: 1px solid #FFF;
+}
+.small{
+    font-size: 11px;
+}
+
+.pgc-section .matpel-list td{
+    padding-right: 10px;
+}
+
+.matpel{
+	width: 520px !important;
+}
+.matpel th{
+	background-color: #d3eef3;
+	height:22px;
+	padding: 0 10px;
+}
+.matpel td{
+	background-color: #f6f6f6;
+	padding: 0 10px !important;
+}
+
+.matpel-review{
+	width: 250px !important;
+	margin: 0 auto;
+}
+.matpel-review th{
+	background-color: #d3eef3;
+	height:22px;
+	padding: 0 10px;
+}
+.matpel-review td{
+	background-color: #f6f6f6;
+	padding: 0 10px !important;
+	font-family: Ubuntu !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+
+/*** BIODATA ***/
+#biodata-guru{
+    width: 625px;
+    border:1px solid #dae3e6;
+    float: left;
+}
+#biodata-guru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#biodata-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/registrasi-header-img2.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#biodata-guru-content{
+    margin-left: 10px;
+    width: 605px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#biodata-guru-notif{
+    margin: 0 20px 10px;
+    color:#EE0101;
+}
+
+#guru-nik-img{
+    max-width: 300px;
+}
+
+.profile-form{
+    color:#000;
+}
+
+.profile-form p{
+    margin:0;
+    line-height: 18px;
+}
+.profile-form select{
+    border: 1px solid #7FDEFA;
+    padding: 5px;
+}
+.profile-form textarea.text{
+    width: 275px;
+    font-family: Ubuntu;
+    font-size: 1em;
+}
+.profile-form .info{
+    color:#979797;
+    font-size: 0.75em;
+}
+.profile-form .info2{
+    color:#000;
+    font-size: 0.9em;
+}
+
+/*** PERSONAL MESSAGE/BIO ***/
+#personal-guru{
+    float:left;
+}
+#content textarea#personal_message{
+    width: 500px;
+    height: 300px;
+}
+
+/*** MATA PELAJRAN ***/
+#matpel-guru{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+#matpel-guru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#matpel-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/registrasi-header-img2.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family:Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#matpel-guru-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+#matpel-guru-content span{
+    margin-right: 10px;
+}
+
+#matpel-guru-content .rgm{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#matpel-guru-content .rgc{
+    width: 210px;
+}
+#matpel-guru-notif{
+    margin: 0 20px 10px;
+    color:#EE0101;
+}
+
+/*** TARIF ***/
+#tarif-guru{
+    float: left;
+}
+
+/*** LOKASI ***/
+#lokasi-guru{
+    width: 625px;
+    border:1px solid #dae3e6;
+    float: left;
+}
+#lokasi-guru-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#lokasi-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/registrasi-header-img2.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#lokasi-guru-content{
+    margin-left: 10px;
+    width: 605px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+#lokasi-guru-notif{
+    margin: 0 20px 10px;
+    color:#EE0101;
+}
+
+/*** JADWAL ***/
+#jadwal-guru{
+    width: 625px;
+    float: left;
+}
+#jadwal-guru-header{
+    width: 605px;
+}
+#jadwal-guru-content{
+    width: 605px;
+}
+#jadwal-guru-table-form{
+    border-collapse: collapse;
+    width: 100%;
+}
+#jadwal-guru-table-form tr{
+    border-collapse: collapse;
+}
+#jadwal-guru-table-form td,
+#jadwal-guru-table-form th{
+    border-collapse: collapse;
+    border: 1px solid #c9c9c9;
+    padding: 6px 4px;
+    text-align: center;
+    width: 40px;
+}
+#jadwal-guru-table-form th{
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    background-color: #e1e4eb;
+    
+}
+#jadwal-guru-table-form td{
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+#jadwal-guru-table-form td.selected{
+    background-color: #cff3ff;
+}
+.jadwal-guru-info{
+    line-height: 35px;
+    font-size: 10px;
+}
+.jadwal-guru-info img{
+    vertical-align: middle;
+}
+
+/*** KUALIFIKASI ***/
+#kualifikasi-guru{
+    float: left;
+}
+
+#kualifikasi-textbox{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #9DE9FF;
+    font-family: Ubuntu;
+    font-size: 1em;
+}
+
+#guru-sertifikat-list{
+    width: 100%;
+}
+#guru-sertifikat-list td,
+#guru-sertifikat-list th{
+    padding: 2px 4px;
+    border-collapse: collapse;
+    border: 1px solid #DAE3E6;
+}
+
+#guru-sertifikat-list a:link,
+#guru-sertifikat-list a:visited{
+    color:#585858;
+    text-decoration:  none;
+}
+#guru-sertifikat-list a:hover{
+    text-decoration:  underline;
+}
+.sertifikat-img{
+    max-width: 300px;
+}
+
+/****** PENGALMAAN MENGAJAJR *****/
+#pengalaman-textbox{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #9DE9FF;
+    font-family: Ubuntu;
+    font-size: 1em;
+}
+
+/*** MYACCOUNT MENU ***/
+#myaccount-menu{
+    width: 325px;
+    border:1px solid #dae3e6;
+    float:right;
+    clear: right;
+}
+#myaccount-menu-header{
+    background:url(../images/cariguru-header-bg.png) repeat;
+    width: 305px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#myaccount-menu-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/review-img.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#myaccount-menu-content{
+    margin-left: 10px;
+    width: 305px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#myaccount-menu-wrapper{}
+#myaccount-menu-wrapper ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#myaccount-menu-wrapper ul li{
+    margin-left: 30px;
+    padding: 4px 0; 
+    text-transform: uppercase;
+}
+#myaccount-menu-wrapper ul li a:link,
+#myaccount-menu-wrapper ul li a:visited{
+    color: #4A4A4A;
+    font-family: "Ubuntu";
+    font-size: 1.1em;
+    text-decoration: none;
+}
+#myaccount-menu-wrapper ul li a:hover{
+    color:#FFBE25;
+    font-weight: bold;
+}
+
+/****** RATING *****/
+#profile-rating-left{
+    float:left;
+    width:350px;
+    padding-top: 20px;
+}
+#profile-rating-left p{
+    margin: 15px 0;
+    font-size:13px;
+}
+#profile-rating-left p a:visited,
+#profile-rating-left p a:link{
+    color:#2db2d1;
+    text-decoration: none;
+}
+#profile-rating-left p a:hover{
+    text-decoration: underline;
+}
+.pgc-section p#profile-rating-title{
+    color:#2bbddf;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    text-align: left;
+}
+#profile-rating-right{
+    width:150px;
+    height: 168px;
+    float:left;
+    background-image: url(../images/rating-bg-blue.png);
+    text-align: center;
+    vertical-align: middle;
+}
+#profile-rating-right p{
+    vertical-align: middle;
+    line-height:168px;
+    color:#f8f8f8;
+    font-family: Ubuntu;
+    font-size: 55px;
+    font-weight: bold;
+    margin:0;
+}
+#profile-lamar-table{
+    margin-top: 20px;
+    color:#000;
+    width: 630px;
+}
+#profile-lamar-table td,
+#profile-lamar-table th{
+    border:1px solid #dddddd;
+    border-collapse: collapse;
+}
+#profile-lamar-table th{
+    padding:10px;
+    font-size:12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+#profile-lamar-table tr td:first-child{
+    text-align: left;
+}
+
+#profile-lamar-table tbody tr:hover{
+    background-color: #f4f9fb;
+}
+
+#profile-lamar-table td{
+    font-size:13px;
+    padding:12px;
+}
+#profile-rating-table{
+    margin-top: 20px;
+    color:#000;
+    width: 100%;
+}
+#profile-rating-table td,
+#profile-rating-table th{
+    border:1px solid #dddddd;
+    border-collapse: collapse;
+}
+#profile-rating-table th{
+    padding:10px;
+    font-size:12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+#profile-rating-table tr td:first-child{
+    text-align: left;
+}
+
+#profile-rating-table tbody tr:hover{
+    background-color: #f4f9fb;
+}
+
+#profile-rating-table td{
+    font-size:13px;
+    padding:12px;
+    text-align: center;
+}
+#profile-feedback-table{
+    margin-top: 20px;
+    color:#000;
+    width: 100%;
+}
+#profile-feedback-table td,
+#profile-feedback-table th{
+    border:1px solid #dddddd;
+    border-collapse: collapse;
+}
+#profile-feedback-table th{
+    padding:10px;
+    font-size:12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+#profile-feedback-table td{
+    font-size:13px;
+    padding:12px;
+}
+
+.bg-table{
+	background-color: #bedef4;
+}
+
+.bg-kelas-rating{
+	background-color: #dddddd;
+	padding: 2px 5px;
+}
+

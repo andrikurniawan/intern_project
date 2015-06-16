@@ -1,0 +1,328 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+/***** LOGIN GURU *****/
+#login-guru{
+    width: 625px;
+    border:1px solid #dae3e6;
+    margin: 0 auto;
+    text-align: center;
+}
+#login-guru-header{
+    background:url(../images/cariguru-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#login-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/guru-icon.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#login-guru-content{
+    margin-left: 10px;
+    width: 605px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#login-guru-content p{
+	color: #000;
+	text-align: center;
+}
+
+#login-guru-form table{
+    width: 100%;
+}
+
+/***** LOGIN DUTA GURU ****/
+#login-duta-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#login-duta-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/duta-icon.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+
+/***** REGISTRASI GURU *****/
+#registrasi-guru{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+#registrasi-guru-header{
+    background:url(../images/cariguru-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#registrasi-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/guru-icon.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#registrasi-guru-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+.guru-notif{
+    margin: 0 20px 10px;
+    color:#EE0101;
+}
+
+.guru-form{
+    margin: 0 20px;
+    color:#000;
+}
+
+.guru-form p{
+    margin:0;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.guru-form ul{
+	padding:0 10px;
+	margin:0 10px;
+}
+.guru-form li{
+	list-style-type:square;
+}
+.guru-form select{
+    border: 1px solid #7FDEFA;
+}
+.guru-form textarea.text{
+    width: 275px;
+    font-family: Ubuntu;
+    font-size: 1em;
+}
+.guru-form .info{
+    color:#000;
+    font-size: 0.8em;
+    width: 228px;
+}
+.guru-form .info2{
+    color:#000;
+    font-size: 0.9em;
+}
+.guru-content input.text{
+    width: 275px;
+}
+.guru-content select{
+    padding: 5px;
+}
+.registrasi-murid-st{
+    background: url(../images/murid-header-bg.png) repeat;
+    margin-right: -22px;
+    margin-left: -21px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: Ubuntu;
+    font-size: 1.4em;
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.registrasi-guru-st{
+    background: url(../images/cariguru-header-bg.png) repeat;
+    margin-right: -22px;
+    margin-left: -21px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: Ubuntu;
+    font-size: 1.4em;
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.registrasi-duta-st{
+    background: url(../images/registrasi-header-bg.png) repeat;
+    margin-right: -22px;
+    margin-left: -21px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: Ubuntu;
+    font-size: 1.4em;
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.guru-content > table{
+    margin:0 10px;
+    color:#4a4a4a;
+}
+
+.guru-content > table td{
+    padding-top: 10px;
+}
+
+#registrasi-guru-content span{
+    margin-right: 10px;
+}
+
+#registrasi-guru-content .rgm{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#registrasi-guru-content .rgc{
+    width: 210px;
+}
+#register-terms{
+    text-align: center;
+    margin: 0 20px;
+}
+#register-terms-open{
+    margin-bottom: 10px;
+}
+#register-terms-open a:link,
+#register-terms-open a:visited{
+    color:#4a4a4a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#register-terms-field{
+    margin-bottom: 15px;
+}
+#register-terms-field{
+    color:#3887a0;
+    font-size: 1.4em;
+}
+#register-terms-bottom{
+    font-weight: normal;
+}
+#terms-and-cond{
+    height: 200px;
+    overflow-y: scroll;
+    border:1px solid #9DE9FF;
+    padding: 4px;
+}
+
+/*** PROFILE ***/
+.header-logo-guru{
+    width: 246px;
+    float: left;
+    text-align: left;
+}
+
+#profile-guru-content p.red-notif{
+    text-align: left;
+    margin:0;
+    padding-left: 20px;
+}
+#pgc-left{
+    float:left;
+    width:275px;
+}
+#pgc-right{
+    float:left;
+    width:600px;
+}
+.pgcw-header{
+    width: 218px;
+    border-bottom: 1px solid #4c4c4c;
+}
+#pgc-right .pgcw-header{
+    width: 535px;
+}
+.pgcw-header p{
+    margin: 0;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+}
+.pgcw-content p{
+    margin: 5px 0;
+}
+.pgcw-content p.info{
+    color:#979797;
+    font-size: 0.75em;
+}
+
+.pgcw-content span{
+    min-width: 63px;
+    margin-bottom:4px;
+    font-size: 0.95em;
+}
+.pg-info-edit{
+    margin-left: 25px;
+    padding-left:10px;
+    border-left:1px solid #4c4c4c;
+}
+.pg-info-edit a:link,
+.pg-info-edit a:visited{
+    color:#2849b2;
+    text-decoration:none;
+}
+.pg-info-edit a:hover{
+    text-decoration: underline;
+}
+
+/*** REQUEST ***/
+#request-guru{
+    width: 960px;
+    border:1px solid #dae3e6;
+    margin: 0 auto;
+}
+#request-guru-header{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 940px;
+    background:url(../images/cariguru-header-bg.png) repeat;
+}
+#request-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#request-guru-content{
+    margin-left: 10px;
+    width: 940px;
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    color:#4a4a4a;
+}
+#request-guru-list{
+    padding: 20px;
+    text-align: left;
+}

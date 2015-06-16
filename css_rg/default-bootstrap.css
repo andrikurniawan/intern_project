@@ -1,0 +1,13 @@
+.header, .header-nav, #header-phone {
+	font-size: 16px !important;
+	line-height: normal;
+}
+
+.header-nav ul.nav-drop {
+	margin: 16px 0;
+}
+
+.nav-wrap-right {
+	margin-top: 40px;
+	padding-top: 15px;
+}

@@ -1,0 +1,1100 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+/*** PROGRESS BAR ***/
+.progress-bar{
+    float: left;
+    position: relative;
+}
+#progress-bar-1{
+    z-index: 5;
+}
+#progress-bar-2{
+    z-index: 4;
+    margin-left: -25px;
+}
+#progress-bar-3{
+    z-index: 3;
+    margin-left: -26px;
+}
+#progress-bar-4{
+    z-index: 2;
+    margin-left: -25px;
+}
+#cari-guru-nav {
+    height: 80px;
+}
+
+
+/*** CARI GURU ***/
+#cari-guru-progress{
+    height: 60px;
+    width: 960px;
+    margin:0 auto;
+}
+
+#cari-guru-detail{
+    width: 1080px;
+    margin: 0 auto;
+    min-height: 500px;
+    background: #FFF;
+}
+
+#cari-guru-detail #cari-guru-header{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#cari-guru-detail #cari-guru-content{
+    width: 1080px;
+    height: auto !important;
+    background: #FFF;
+    margin-top:20px;
+}
+
+#adv-search-div-sgr {
+    text-align: left !important;
+    position: relative;
+    margin-left: 20px;
+    padding: 20px 8px 80px 20px;
+    z-index: 10;
+    font-family: Ubuntu;
+    font-size: 14px;
+}
+#adv-search-div-sgr td {
+    vertical-align: top;
+    width: auto !important;
+}
+#adv-search-div-sgr input[type='radio'], #adv-search-div-sgr input[type='checkbox'] {
+    display: inline;
+    vertical-align: top;
+    margin: 3px;
+}
+#adv-search-div-sgr select {
+    height: 37px;
+    width: 90%;
+}
+
+.indent-sgr {
+    text-indent: 9px;
+}
+
+#cari-guru-detail .r-guru-detail{
+    float:left;
+    height: 30px;
+    font-size: 0.9em;
+    margin-right:20px; 
+}
+#cari-guru-detail .cari-guru-left{
+    margin-right: 10px;
+}
+#cari-guru-detail .cari-guru-center{
+    float: left;
+    margin-left: 20px;
+}
+
+#cari-guru-detail .cari-guru-right{
+    width: 280px;
+}
+
+#cari-guru-detail .cari-submit{
+    float: none;
+}
+
+#cari-guru-result{
+    width: 1080px;
+    margin: 0 auto;
+}
+.guru-result-con{
+    color:#4a4a4a;
+    font-family: Ubuntu;
+    margin-bottom: 40px;
+}
+
+/* -- -- */
+.userblock {
+    z-index: 10;
+    text-align: left;
+  margin: 39px 20px 20px 20px !important;
+    padding: 10px;
+    background: white;
+    font-family: "Ubuntu";
+    font-size: 14px;
+}
+.userblock:last-child {
+    margin-bottom: 55px;
+}
+
+.userblock:hover {
+    filter: brightness(97%);
+    -moz-filter: brightness(97%);
+    -webkit-filter: brightness(97%);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.userblock.blockselected {
+
+}
+
+.userblock .photograph {
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.userblock .glyphicon{
+    font-size: 14px;
+    padding: 3px;
+}
+
+.userblock .rating-guru-sgr{
+    margin: 0 auto;
+    color: #61C9E1;
+    width: 165px;
+    padding: 12px;
+    text-align: left;
+    background: #F4F4F4;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.6px;
+}
+
+.userblock .tarif-guru-sgr {
+    margin: 0 auto;
+    color: #FFF;
+    width: 165px;
+    padding: 12px;
+    text-align: left;
+    background: #34B9D8;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.badge-guru-sgr {
+    position: absolute;
+    margin-left: 159px;
+    height: 60px;
+    margin-top: -3px;
+}
+
+.badge-guru-sgr img {
+    height: 60px;
+}
+
+
+.bookmark-guru-sgr:hover {
+    cursor: pointer;
+}
+
+.userblock .user-read-more-sgr {
+    color: black;
+    text-decoration: underline;
+}
+
+.userblock .lead {
+    font-weight: bolder;
+}
+
+.userblock-icon-sgr {
+    width: 24px;
+    margin-top: -4px;
+}
+
+.userblock-detail-sgr {
+    margin-bottom: 9px;
+}
+
+.search-result-pilih-sgr {
+    width: 80px;
+    position: absolute;
+    margin-top: 27px !important;
+    z-index: 20;
+}
+
+.search-result-pilih-sgr input[type="checkbox"], #tentang-pilih-btn input[type="checkbox"]{
+    position: absolute;
+    margin-left: -28px;
+    margin-top: -5px;
+    pointer-events: none;
+}
+
+.search-result-pilih-sgr span, #tentang-pilih-btn span {
+    position: absolute;
+    margin-top: -6px;
+    margin-left: -18px;
+    pointer-events: none;
+}
+
+#selected-guru-sgr {
+    z-index: 9999 !important;
+    width: 230px;
+    background: #FFE08D;
+    position: fixed;
+    top: 135px;
+    right: 0;
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding: 10px 10px 15px 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 30;
+    -moz-box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+#selected-guru-sgr.glow {
+    box-shadow: 0 0 7px red;
+    -moz-box-shadow: 0 0 7px red;
+    -webkit-box-shadow: 0 0 7px red;
+}
+#selected-guru-sgr ul {
+    list-style: none;
+    padding-left: 0;
+}
+#selected-guru-sgr li {
+    width: 200px;
+    background: white;
+    margin: 5px;
+    height: 53px;
+    border: 3px solid #DDD;
+}
+#selected-guru-sgr li:hover {
+    background: #EAEAEA;
+    cursor: pointer;
+}
+#selected-guru-sgr .ui-sortable-helper li {
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+#selected-guru-sgr .close-btn {
+    color: #E10A65;
+    width: 20px;
+    height: 24px;
+    float: right;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 182px;
+}
+#selected-guru-sgr .close-btn:hover {
+    background: #E10A65;
+    color: white;
+    cursor: pointer;
+}
+#selected-guru-sgr .up-btn {
+    color: #36BFDD;
+    width: 20px;
+    height: 24px;
+    float: right;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 2px;
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 160px;
+}
+#selected-guru-sgr .up-btn:hover {
+    background: #36BFDD;
+    color: white;
+    cursor: pointer;
+}
+#selected-guru-sgr .down-btn {
+    color: #FFB838;
+    width: 20px;
+    height: 24px;
+    float: right;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 3px;
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 138px;
+}
+#selected-guru-sgr .down-btn:hover {
+    background: #FFB838;
+    color: white;
+    cursor: pointer;
+}
+.selected-name-sgr {
+    width: 128px;
+    height: 36px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+.selected-prio-sgr {
+    border: 3px solid #FFB838 !important;
+}
+.selected-prio-sgr .selected-name-sgr {
+    width: 117px !important;
+    height: 30px !important;
+    padding: 5px !important;
+}
+#selected-guru-sgr .small-avatar-wrapper {
+    width: 40px;
+    height: 40px;
+    overflow-y: hidden;
+    display: inline-block;
+    margin-top:4px;
+    margin-left: 4px;
+}
+#selected-guru-sgr .small-avatar{
+    width: 40px;
+}
+
+#tentang-pilih-btn, button.button.search-result-pilih-sgr {
+    background-color: #E91579 !important;
+}
+
+#tentang-pilih-btn:hover, button.button.search-result-pilih-sgr:hover,
+#tentang-pilih-btn:focus, button.button.search-result-pilih-sgr:focus,
+#tentang-pilih-btn:active, button.button.search-result-pilih-sgr:active {
+    background-color: #C21366 !important;
+}
+
+#guru-popup-sgr, 
+#guru-popup-next-sgr {
+    text-align: left;
+    font-family: Ubuntu;
+    color: #666;
+}
+#guru-popup-sgr .tab-content,
+#guru-popup-next-sgr .tab-content {
+    padding: 20px;
+}
+#guru-popup-sgr .nav-tabs > li > a,
+#guru-popup-next-sgr .nav-tabs > li > a {
+    border-radius: 0;
+    color: #34B9D8;
+    outline: none;
+}
+
+#guru-popup-sgr .modal-content, #guru-popup-sgr .modal-dialog {
+    height: 540px;
+}
+
+#guru-popup-sgr #tentang-guru1, 
+#guru-popup-sgr #tentang-guru2, 
+#guru-popup-sgr #tentang-guru3,
+#guru-popup-sgr #tentang-guru4 {
+    height: 380px;
+    overflow-y: auto;
+}
+#guru-popup-sgr #tentang-guru1 > *, 
+#guru-popup-sgr #tentang-guru2 > *, 
+#guru-popup-sgr #tentang-guru3 > *,
+#guru-popup-sgr #tentang-guru4 > * {
+    margin: 10px 0px;
+}
+
+#guru-popup-sgr #tentang-pilih-btn {
+    float: right;
+    width: 80px;
+}
+
+#guru-popup-sgr #tentang-bookmark-btn {
+    cursor: pointer;
+}
+
+#guru-popup-sgr #tentang-guru-foto {
+    max-width: 125px;
+}
+#guru-popup-sgr #tentang-guru-foto > img {
+    width: 100%;
+}
+#guru-popup-sgr #tentang-guru-tentang {
+    background: white;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+#guru-popup-sgr #tentang-guru-star i {
+    color: #34B9D8;
+}
+
+#guru-popup-sgr .tentang-guru-reviewer {
+    margin-top: 20px;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    padding: 20px;
+}
+
+#guru-popup-sgr #question-rating, #guru-popup-sgr #question-review, #guru-popup-sgr #question-jam {
+    cursor: pointer;
+}
+
+/*#tentang-guru-galeri {
+    height: 240px;
+}
+
+#tentang-guru-galeri .carousel-inner {
+    height: 100%;
+    background: #000;
+}
+
+#tentang-guru-galeri .item img {
+    height: 240px;
+    margin: 0 auto;
+}
+*/
+
+
+.text-points {
+    padding: 6px 0px 8px 10px;
+    border-left: 1px solid #CCC;
+}
+
+.text-points:before {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 2px solid #CCC;
+    background: #FFF;
+    display: inline-block;
+    margin-left: -16px;
+    margin-right: 4px;
+};
+
+
+#guru-popup-next-sgr textarea {
+    resize: none;
+    height: 100px;
+    width: 100%;
+}
+
+#guru-popup-next-sgr textarea::-moz-placeholder {
+    font-style: italic;
+}
+#guru-popup-next-sgr textarea:focus::-moz-placeholder {
+    opacity: 0;
+}
+#guru-popup-next-sgr textarea:-moz-placeholder {
+    font-style: italic;
+}
+#guru-popup-next-sgr textarea:focus:-moz-placeholder {
+    opacity: 0;
+}
+#guru-popup-next-sgr textarea::-webkit-input-placeholder {
+    font-style: italic;
+}
+#guru-popup-next-sgr textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+#guru-popup-next-sgr textarea::-ms-input-placeholder {
+    font-style: italic;
+}
+#guru-popup-next-sgr textarea:focus::-ms-input-placeholder {
+    opacity: 0;
+}
+/* -- -- */
+
+.guru-result-con table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.guru-result-con table tr,
+.guru-result-con table td{
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+.guru-result-con td{
+    vertical-align: top;
+}
+.guru-result-info{
+    width: 190px;
+    background-color: #FFFFFF;
+    font-size: 0.8em;
+    border: 1px solid #DAE3E6;
+    border-right: none;
+    height: 270px;
+}
+.guru-result-img{
+    margin-left: 18px;
+}
+.gri-wrap{
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+}
+.guru-result-lgu{
+    margin:10px 0 0 18px;
+    text-align: left;
+    width: 140px;
+}
+
+.guru-result-rating{
+    width: 140px;
+    height: 270px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #DAE3E6;
+    border-bottom: 1px solid #DAE3E6;
+}
+.grr-title{
+    height: 22px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 104px;
+}
+.grr-value{
+    height: 107px;
+    background: url('../images/rating-bg.png') no-repeat;
+}
+.grr-value-wrap{
+    width: 104px;
+    color:#4f5400;
+    font-family: Georgia;
+    font-size: 3.3em;
+    line-height: 90px;
+}
+.grr-checkbox{
+    text-align: left;
+    margin-top: 10px;
+    width: 115px;
+    line-height: 16px;
+    margin-left: 8px;
+    font-size:0.8em;
+    color:#000;
+}
+
+.guru-result-detail{
+    width:595px;
+    height:400px;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+    border: 1px solid #DAE3E6;
+    border-left: none;
+    
+}
+.grd-title{
+    color:#4f5400;
+    margin:5px;
+    height: 40px;
+    background-color: #e8f159;
+}
+.grdt-left{
+    font-size: 1.1em;
+    line-height: 40px;
+    margin-left: 18px;
+    float: left;
+    text-transform: capitalize;
+    font-family: Ubuntu;
+    color:#000;
+}
+.grdt-right{
+    margin-top: 11px;
+    float: right;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-right: -8px;
+    padding-right: 20px;
+}
+.grdt-right a:link,
+.grdt-right a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.grdtr-up{
+    background: url(../images/guru-detail-up.png) no-repeat right center;
+}
+.grd-content{
+    margin: 5px;
+}
+.grd-content td{
+    vertical-align: top;
+}
+.grdc-left1{
+    width: 35px;
+    height: 40px;
+    background: url('../images/guru-detail-i.png') no-repeat;
+}
+.grdc-left2{
+    width: 35px;
+    height: 40px;
+    background: url('../images/guru-detail-y.png') no-repeat;
+}
+.grdc-right{
+    margin-bottom: 10px;
+    width: 520px;
+    text-align: left;
+}
+.grdc-title{
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    color:#000;
+}
+.grdc-text{
+    font-size: 0.8em;
+}
+.grdc-text2{
+    font-size: 0.8em;
+    color:#000;
+    /*display: none;*/
+}
+.matpel{
+	width: 520px !important;
+}
+.matpel th{
+	background-color: #d3eef3;
+	height:22px;
+	padding: 0 10px;
+}
+.matpel td{
+	background-color: #f6f6f6;
+	padding: 0 10px !important;
+}
+/*** REVIEW GURU ***/
+#review-guru{
+    width: 960px;
+    border:1px solid #dae3e6;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#review-guru-header{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*background:url(../images/cariguru-header-bg.png) repeat;*/
+    background-color: #D1DE01;
+}
+#review-guru-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    background: url(../images/icon-review.png) no-repeat right;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#review-guru-content{
+    width: 940px;
+    min-height: 320px;
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    color:#4a4a4a;
+    text-align: left;
+}
+
+#review-guru table,
+#review-guru td,
+#review-guru tr{
+    padding: 0;
+    border-collapse: initial !important;
+    vertical-align: top;
+	margin:0 auto;
+}
+
+#review-guru > table{
+    margin-left: 10px;
+}
+
+#review-guru > tr > td{
+    border-left:1px solid #b9b9b9;
+    width:225px;
+}
+
+#review-guru  tr  td:first-child{
+    width: 160px;
+    padding-left: 20px;
+    border-left:none;
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+.rg-guru-wrap{
+    margin:0;
+}
+.rg-guru-wrap{
+    margin: 0;
+}
+.rg-hapus{
+    font-family: Ubuntu;
+    font-size: 0.9em;
+    color: #4a4a4a;
+    line-height: 28px;
+}
+.rg-pp{
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.rg-nama{
+    font-family: Ubuntu;
+    font-size: 1.1em;
+    color: #000;
+    text-transform: capitalize;
+}
+.rg-grey{
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    color: #000;
+    line-height: 18px;
+    background-color: #f2f2f2;
+}
+.rg-white{
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    color: #000;
+    line-height: 22px;
+}
+.rg-rating{
+    margin: 8px 0;
+    background: url('../images/review-rating-bg.png') no-repeat;
+    height: 60px;
+}
+.rg-rating-wrap{
+    color: #4F5400;
+    font-family: Ubuntu;
+    font-size: 2em;
+    line-height: 54px;
+    width: 61px;
+    text-align: center;
+}
+
+.rg-info{
+    margin:0 20px;
+    font-size: 13px;
+    font-family: Ubuntu;
+}
+.guru-xp{
+	height:120px;
+	overflow-y:scroll;
+}
+.like-table li:before{
+	display: table-cell;
+}
+table.availability tr td,
+table.availability tr th{
+    border: 1px solid #FFFFFF !important;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    width: 16px !important;
+    line-height: 16px !important;
+}
+
+/**** TRACK REQUEST ****/
+#track-request{
+    width: 625px;
+    border:1px solid #dae3e6;
+}
+#track-request-header{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 605px;
+    /*background:url(../images/cariguru-header-bg.png) repeat;*/
+    background-color: #D1DE01;
+}
+#track-request-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    background: url(../images/track-img.png) no-repeat right;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#track-request-content{
+    margin-left: 10px;
+    width: 605px;
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    color:#4a4a4a;
+    text-align: left;
+}
+.track-request-text{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+.track-field{
+    margin-left: 20px;
+}
+.track-field p{
+    margin: 10px 0 5px 0;
+    font-size: 0.8em;
+}
+.track-submit{
+    margin-left: 20px;
+}
+
+/**** REQUEST GURU ****/
+#request-guru,
+#request-guru tr,
+#request-guru td{
+    border-collapse: collapse;
+}
+#request-left{ 
+    padding-right: 10px;
+    vertical-align: top;
+}
+#request-right{
+    padding: 0;
+    vertical-align: top;
+}
+
+#request{
+    border:1px solid #dae3e6;
+}
+#request-header{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 605px;
+    /*background:url(../images/cariguru-header-bg.png) repeat;*/
+    background-color: #D1DE01;
+}
+#request-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    background: url(../images/icon-request.png) no-repeat right;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #000;
+}
+#request-content{
+    margin-left: 10px;
+    width: 605px;
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    color:#000;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#request-info{
+    margin:0 20px;
+    font-size: 0.8em;
+}
+#request-subject{
+    margin:0 20px;
+}
+.request-title{
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #4a4a4a;
+    margin-bottom: 10px;
+}
+.request-data{
+    font-size: 0.8em;
+}
+.pushed .request-field{
+    margin-left: 20px;
+}
+.request-data .select{
+    width: 234px;
+    margin-top: 5px;
+    border:1px solid #7fdefa;
+    color:#000;
+    padding:4px;
+    font-family: Ubuntu;
+}
+.request-data .select-small{
+    width: 125px;
+    margin-top: 5px;
+    border:1px solid #7fdefa;
+    color:#000;
+    padding:4px;
+}
+.request-data .bs-left,
+.request-data .bs-right
+{
+    font-size: 1.2em;
+    width: 150px;
+}
+.request-data .bidang-studi-wrap{
+    height: auto;
+    width: auto;
+    float: left;
+}
+#request-subject .request-field span{
+    margin-right: 15px;
+}
+#request-schedule{
+    margin:0 20px;
+}
+#request-schedule td{
+    padding-top: 8px;
+}
+#request-schedule span{
+    margin-right: 6px;
+}
+#request-gender{
+    margin:0 20px;
+}
+#request-gender span{
+    margin-right: 2px;
+}
+
+#request-terms{
+    text-align: center;
+    margin: 0 20px;
+}
+#request-terms-open{
+    margin-bottom: 10px;
+}
+#request-terms-open a:link,
+#request-terms-open a:visited{
+    color:#4a4a4a;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#request-terms-field{
+    margin-bottom: 15px;
+}
+#request-terms-field{
+    color:#3887a0;
+    font-size: 1.2em;
+}
+#request-terms-bottom{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+#request-success{
+    margin:0 20px;
+}
+#request-code{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#pemesanan-guru{
+    width: 306px;
+    border:1px solid #dae3e6;
+}
+#pg-header{
+    background:url(../images/registrasi-header-bg.png) repeat;
+    width: 286px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#pg-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    background: url(../images/pencarian-img.png) no-repeat right;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #585858;
+}
+#pg-content{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 286px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+}
+#pg-content p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8em;
+    color: #4a4a4a;
+}
+#pg-content ul{
+    margin:0px 20px;
+    padding:0;
+    font-size: 0.8em;
+    color: #4a4a4a;
+}
+#contact-info-request{
+    width: 306px;
+    height: 350px;
+    border:1px solid #dae3e6;
+}
+
+#terms-and-cond {
+    border: 1px solid #9DE9FF;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 4px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+#terms-and-cond p{
+    line-height: 18px;
+    margin: 0;
+}
+/**** PILIH GURU NOTIFICATION ****/ 
+.pilih-guru-tambah,
+.pilih-guru-hapus{
+    opacity:0;
+}
+.pilih-guru-tambah .formErrorContent,
+.pilih-guru-hapus .formErrorContent{
+    width: 130px;
+}
+.pilih-guru-tambah .formErrorArrow,
+.pilih-guru-hapus .formErrorArrow{
+    margin:-2px 0 0 66px;
+}
+
+/**** PAGINATION ****/
+#cari-guru-page{
+    height: 70px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-wrap{
+    display: inline-block;
+    margin:0 3px;
+}
+.page-next{}
+.page-prev{}
+.page-current{
+}
+.page-current .page-link{
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    color:#FFFFFF;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/page-current-bg.png') no-repeat;
+}
+.page-link:link,
+.page-link:visited{
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    display: block;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color:#717171;
+    background: url('../images/page-wrap-bg.png') no-repeat;
+}
+.page-link:hover
+{}
+
+/** NOTIFICATION **/
+.cari-guru-notif{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+

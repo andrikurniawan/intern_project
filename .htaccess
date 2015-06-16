@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST}  ^www.(.+)$ [NC]
+RewriteRule ^/(.*) http://%1/$1 [L,R=301]
+
+RewriteCond $1 !^(index\.php|robots\.txt|css|images|js|cp|user_guide|uploads|blog|kelas)
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]

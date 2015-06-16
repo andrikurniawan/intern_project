@@ -1,0 +1,116 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+.murid-maincontent{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+.murid-maincontent-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.murid-maincontent-header-wrap{
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#237f94;
+}
+.murid-maincontent-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+#login-murid-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#login-murid-header-wrap{
+    background:url(../images/murid-icon.png) no-repeat right;
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#000;
+}
+
+/***** REGISTRASI MURID *****/
+#registrasi-murid{
+    width: 960px;
+    border:1px solid #dae3e6;
+}
+#registrasi-murid-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 940px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#registrasi-murid-header-wrap{
+    background:url(../images/murid-icon.png) no-repeat right;
+    height: 48px;
+    margin-right: 12px;
+    margin-left: 20px;
+    line-height: 48px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color:#000;
+}
+#registrasi-murid-content{
+    margin-left: 10px;
+    width: 940px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 0.8em;
+}
+
+.guru-form select{
+    padding: 5px;
+}
+
+/***** PROFILE *****/
+#profile-murid-header{
+    background:url(../images/murid-header-bg.png) repeat;
+    width: 690px;
+}
+
+#profile-menu-murid{}
+#profile-menu-murid .active{
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat right;
+}
+#profile-menu-murid .active .item-wrap{
+    background-color: #39b9d7 !important;
+}
+#profile-menu-murid .item-wrap{
+    height: 50px;
+    width: 260px;
+    text-align: left;
+    background:  #99d6e4 no-repeat 20px;
+}
+#profile-menu-murid .odd{
+    background-color: #6bcddd;
+}
+#profile-menu-murid .item-wrap:hover{
+    background-color: #c2e7ef;
+}
+#profile-menu-murid #profile{background-image: url('../images/profile-menu-icon-profile.png')}
+#profile-menu-murid #edit{background-image: url('../images/profile-menu-icon-edit.png')}
+#profile-menu-murid #request{background-image: url('../images/profile-menu-icon-request.png')}
+#profile-menu-murid #kelas{background-image: url('../images/profile-menu-icon-kelas.png')}
+#profile-menu-murid #pembayaran{background-image: url('../images/profile-menu-icon-pembayaran.png')}

@@ -1,0 +1,237 @@
+@font-face { font-family: Ubuntu; src: url('Ubuntu-R.ttf'); }
+
+html, body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    overflow-x:	hidden;
+    width:100%;
+}
+table,tr,td{
+    border-collapse: collapse;
+}
+
+
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#header-phone {
+font-family: Ubuntu;
+font-weight: bold;
+color: #fff;
+position: relative;
+top: -25px;
+float: right;
+left: -260px;
+}
+
+.search-wrap-unlogin {
+float: left;
+height: 28px;
+width: 204px;
+background-color: #FFFFFF;
+margin-top: 6px;
+position: relative;
+margin-left: 707px;
+}
+
+
+.search-wrap-button {
+float: left;
+height: 28px;
+width: 30px;
+background-color: #FFFFFF;
+margin-top: -28px;
+position: relative;
+margin-left: 915px;
+}
+
+#search-input {
+color: #000;
+border: none;
+margin: 0;
+font-family: Ubuntu;
+font-size: 12px;
+font-style: italic;
+float: left;
+height: 20px;
+line-height: 23px;
+width: 180px;
+margin: 3px;
+}
+
+#features-wrap {
+width: 1024px;
+margin: 0 auto;
+}
+
+#rg-features li{
+float: left;
+list-style-type: none;
+font-family: Ubuntu;
+font-size: 14px;
+width: 200px;
+margin-right: 35px;
+}
+
+.title-daftar {
+width: 245px;
+text-align: left;
+position: relative;
+left: 80px;
+top: 10px;
+}
+
+.cara-daftar {
+width: 600px;
+text-align: left;
+float: right;
+position: relative;
+top: 10px;
+right: 215px;
+}
+
+#testi-wrap {
+margin: 0 auto;
+padding-top: 10px;
+}
+
+#testi-wrap p{
+margin-left: -185px;
+}
+
+#list-testi li {
+float: left;
+width: 420px;
+margin-left: 50px;
+background: url('../images/quotes1.png') no-repeat;
+margin-bottom: 70px;
+height: 47px;
+}
+
+
+#unggulan-wrap {
+margin-top: 35px;
+width: 1024px;
+margin: 0 auto;
+}
+
+#section-liputan {
+height: 150px;
+background-color: #d5d5d5;
+font-family: Ubuntu;
+width: 100%;
+}
+
+#liputan-wrap {
+padding-top: 1px;
+width: 1024px;
+margin: 0 auto;
+}
+
+#liputan-list li {
+float: left;
+margin: 0 20px;
+}
+
+
+.footer-content {
+text-align: left;
+float: left;
+width: 290px;
+}
+
+.footer-content-right {
+text-align: justify;
+float: left;
+width: 450px;
+margin-left: 10px;
+}
+
+.footer-copyright {
+font-family: Ubuntu;
+color: #fff;
+font-size: 0.8em;
+line-height: 1.5em;
+margin-left: -240px;
+}
+
+#socmed-icon {
+width: 290px;
+float: left;
+margin-top: -30px;
+margin-left: -90px;
+}
+
+.welcome-account {
+float: right;
+height: 30px;
+width: 310px;
+margin-top: -30px;
+margin-right: 400px;
+line-height: 30px;
+font-family: Ubuntu;
+color: #000;
+font-size: 0.8em;
+text-align: right;
+}
+
+#section-slide {
+height: 485px;
+background-color: #f4f5f5;
+width: 100%;
+}
+
+#cari-instan{
+	font-family: Ubuntu;
+	color: #fff;
+     position: relative;
+	margin-left: 30px;
+	top: -295px;
+}
+
+#cari-instan-bg{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -300px;
+	background: #333;
+	width: 515px;
+	height: 260px;
+	opacity: 0.6;
+     filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+#cari-instan-wrap{
+	margin:0;
+	padding:0;
+}
+
+
+#text-cari{
+margin-left:-515px;
+}
+
+.home-banner{
+	max-width:100%;
+	height:100%;
+}
+
+#text-video{
+	position: relative;
+	top: -560px;
+	left: 305px;
+	font-family: Ubuntu;
+	font-size: 14px;
+}
+
+#btn-play{
+	position: relative;
+	top: -470px;
+	left: 225px;
+	width:80px;
+}
+
+}

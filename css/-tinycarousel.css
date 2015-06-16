@@ -1,0 +1,292 @@
+/* Tiny Carousel */
+#slider1 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; left: 70px; width:1064px;}
+#slider2 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; left: 70px; width:1064px;}
+#slider3 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; left: 70px; width:1064px;}
+#slider4 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; width:1064px;}
+
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+#slider1 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; width:1064px; left: 0px;}
+#slider2 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; width:1064px; left: 0px;}
+#slider3 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; width:1064px; left: 0px;}
+#slider4 { height: auto; overflow:hidden; padding: 0 0 10px;  position: relative; width:1064px; left: 0px;}
+
+}
+/* STYLES END HERE */
+
+#slider1 .viewport { float: left; width: 960px; height: 290px; overflow: hidden; position: relative; }
+#slider2 .viewport { float: left; width: 960px; height: 120px; overflow: hidden; position: relative; }
+#slider3 .viewport { float: left; width: 960px; height: 120px; overflow: hidden; position: relative; }
+#slider4 .viewport { float: left; width: 580px; height: 110px; overflow: hidden; position: relative; }
+
+
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#slider1 .viewport { float: left; width: 940px; height: 290px; overflow: hidden; position: relative; }
+#slider2 .viewport { float: left; width: 940px; height: 120px; overflow: hidden; position: relative; }
+#slider3 .viewport { float: left; width: 940px; height: 120px; overflow: hidden; position: relative; }
+#slider4 .viewport { float: left; width: 940px; height: 290px; overflow: hidden; position: relative; }
+
+}
+/* STYLES END HERE */
+
+#slider1 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider2 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider3 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    color: #f4f5f5;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider4 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#slider1 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 25px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider2 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 25px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider3 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 25px;
+    height: 35px;
+    position: relative;
+    color: #f4f5f5;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider4 .buttons {
+    display: block;
+    margin: 30px 20px 0 0;
+    float: left;
+    width: 25px;
+    height: 35px;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+}
+/* STYLES END HERE */
+
+#slider1 .next {
+    margin: 75px 0 0 20px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+
+#slider2 .next {
+    margin: 55px 0 0 20px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+
+#slider3 .next {
+    margin: 55px 0 0 20px;
+}
+
+#slider4 .next {
+    margin: 45px 0 0 0px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#slider1 .next {
+    margin: 75px 0 0 -3px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+
+#slider2 .next {
+    margin: 30px 0 0 -3px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+
+#slider3 .next {
+    margin: 30px 0 0 -3px;
+}
+
+#slider4 .next {
+    margin: 75px 0 0 -3px;
+    background: url('../images/profile-menu-cursor-murid.png') no-repeat;
+}
+}
+/* STYLES END HERE */
+
+#slider1 .prev {
+    margin: 75px 0 0 10px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+
+#slider2 .prev {
+    margin: 65px 0 0 10px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+
+#slider3 .prev {
+    margin: 65px 0 0 10px;
+}
+
+#slider4 .prev {
+    margin: 45px -20px 0 10px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#slider1 .prev {
+    margin: 75px 0 0 5px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+
+#slider2 .prev {
+    margin: 30px 0 0 5px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+
+#slider3 .prev {
+    margin: 30px 0 0 5px;
+}
+
+#slider4 .prev {
+    margin: 75px 0 0 5px;
+    background: url('../images/profile-menu-cursor-murid-prev.png') no-repeat;
+}
+
+}
+/* STYLES END HERE */
+
+#slider1 .disable { visibility: hidden; }
+#slider2 .disable { visibility: hidden; }
+#slider3 .disable { visibility: hidden; }
+#slider4 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider2 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider3 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider4 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider1 .overview li{ float: left; margin: 0 30px 0 0;}
+#slider2 .overview li{ float: left; margin: 0 30px 0 0; width:300px}
+#slider3 .overview li{ float: left; margin: 0 30px 0 0; width:930px}
+#slider4 .overview li{ float: left; margin: 0 3px 0 0;}
+
+/**** FOR IPHONE ****/
+@media all and (max-width: 1024px) and (min-width: 700px) {
+
+/* STYLES GO HERE */
+
+#slider1 .overview li {
+float: left;
+margin: 0 15px 0 0;
+}
+
+#slider2 .overview li {
+float: left;
+margin: 0 15px 0 0;
+}
+
+#slider3 .overview li {
+float: left;
+margin: 0 15px 0 0;
+}
+
+#slider4 .overview li {
+float: left;
+margin: 0 15px 0 0;
+}
+}
+/* STYLES END HERE */
